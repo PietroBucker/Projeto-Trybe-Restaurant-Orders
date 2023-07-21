@@ -37,5 +37,7 @@ class MenuData:
 teste = MenuData(DATA_PATH)
 teste.file_open()
 teste2 = list(teste.dishes)
-print(teste2[0].get_ingredients())
-print(teste2[1].get_ingredients())
+teste3 = [ingredient.name for ingredient in list(teste2[0].get_ingredients())]
+print(teste3)
+# print(teste2[0].get_restrictions())
+
