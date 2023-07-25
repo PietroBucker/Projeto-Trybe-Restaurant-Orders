@@ -1,5 +1,3 @@
-teste = MenuData(DATA_PATH)
-teste.file_open()
-teste2 = list(teste.dishes)
-print(teste2)
-print(list(teste2[0].get_ingredients()))
+
+teste = MenuBuilder(DATA_PATH, INVENTORY_PATH)
+print(teste.get_main_menu())
