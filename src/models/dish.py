@@ -41,7 +41,7 @@ class Dish:
         return set(self.recipe.keys())
 
 
-# teste = Dish('lasanha', 10)
-# teste.add_ingredient_dependency(Ingredient('farinha'), 10)
-# print(list(teste.get_ingredients()))
+teste = Dish('lasanha', 10)
+teste.add_ingredient_dependency(Ingredient('farinha'), 10)
+# print(list(teste.recipe.values()))
 # print(teste.get_restrictions())
