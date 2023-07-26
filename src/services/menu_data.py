@@ -32,11 +32,3 @@ class MenuData:
                         Ingredient(line[2]), int(line[3])
                     )
             self.dishes.add(new_dish)
-
-
-# teste = MenuData(DATA_PATH)
-# teste.file_open()
-# teste2 = list(teste.dishes)
-# teste3 =[ingredient.name for ingredient in list(teste2[0].get_ingredients())]
-# print(teste3)
-# print(Restriction.ANIMAL_DERIVED in list(teste2[0].get_restrictions()))

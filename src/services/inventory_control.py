@@ -63,7 +63,3 @@ class InventoryMapping:
             write_csv_inventory(self.inventory)
         else:
             raise ValueError("ValueError")
-
-
-# teste2 = InventoryMapping(BASE_INVENTORY)
-# print(teste2.check_recipe_availability(teste.recipe))
