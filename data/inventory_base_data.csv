@@ -1,11 +1,11 @@
 ingredient,initial_amount
-queijo mussarela,285
-tomate,290
+queijo mussarela,255
+tomate,270
 farinha,350
-farinha de trigo,90
-sal,295
+farinha de trigo,70
+sal,285
 cravo,200
-água,490
+água,470
 orégano,250
 molho shoyu,200
 batata,450
@@ -38,5 +38,5 @@ arroz,300
 molho de tomate,300
 cebola,200
 massa de ravioli,300
-presunto,50
+presunto,20
 berinjela,5
